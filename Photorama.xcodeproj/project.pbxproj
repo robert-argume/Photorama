@@ -14,6 +14,7 @@
 		E145DDD820574EEA0039557B /* PhotoramaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145DDD720574EEA0039557B /* PhotoramaTests.swift */; };
 		E145DDE320574EEA0039557B /* PhotoramaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145DDE220574EEA0039557B /* PhotoramaUITests.swift */; };
 		E145DDF320574F970039557B /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145DDF220574F970039557B /* PhotosViewController.swift */; };
+		E145DDF52057556C0039557B /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145DDF42057556C0039557B /* FlickrAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E145DDE220574EEA0039557B /* PhotoramaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoramaUITests.swift; sourceTree = "<group>"; };
 		E145DDE420574EEA0039557B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E145DDF220574F970039557B /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		E145DDF42057556C0039557B /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E145DDCB20574EEA0039557B /* LaunchScreen.storyboard */,
 				E145DDCE20574EEA0039557B /* Info.plist */,
 				E145DDF220574F970039557B /* PhotosViewController.swift */,
+				E145DDF42057556C0039557B /* FlickrAPI.swift */,
 			);
 			path = Photorama;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E145DDF52057556C0039557B /* FlickrAPI.swift in Sources */,
 				E145DDF320574F970039557B /* PhotosViewController.swift in Sources */,
 				E145DDC320574EEA0039557B /* AppDelegate.swift in Sources */,
 			);
