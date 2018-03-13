@@ -23,7 +23,7 @@ struct FlickrAPI{
     private static let dateFormatter: DateFormatter = {
         
         let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy-HH-dd HH:nn:ss"
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
         
         return formatter
         
